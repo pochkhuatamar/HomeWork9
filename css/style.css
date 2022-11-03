@@ -57,5 +57,11 @@ ul{
 }
 /* sec3 */
 .wrapper_images {
+    background-color: green;
+}
+img {
     width: 250px;
+}
+p {
+    margin-bottom: 20px;
 }
