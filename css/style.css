@@ -56,8 +56,16 @@ ul{
     margin-top: 20px;
 }
 /* sec3 */
+.MainDiv {
+   
+}
+
 .wrapper_images {
-    background-color: green;
+    /* display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start; */
+    background-color: gray;
 }
 img {
     width: 250px;
