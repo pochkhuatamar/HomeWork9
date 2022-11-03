@@ -10,14 +10,32 @@
     justify-content: space-between;
     align-items: center;
 }
-
-
 ul{
     width: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+}
+/* li {
     font-size: 20px;
+} */
+
+.fa-bars {
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    nav {
+        display: none;
+    }
+    .fa-bars {
+        display: inline-block
+    }
+}
+/* sec2 */
+.back_photo {
+    background-image: url("../images/GIRL.svg");
 
 }
